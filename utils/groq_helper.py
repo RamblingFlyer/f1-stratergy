@@ -1,3 +1,5 @@
+from typing import Dict, Any
+from typing import List
 class StrategyAssistant:
     def _format_strategy(self, strategy: Dict[str, Any]) -> str:
         """Format a race strategy into a readable string"""
